@@ -1,0 +1,21 @@
+.view-emp{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        margin: 40px;
+    }
+
+    button {
+        margin: 20px;
+        background: grey;
+        color: white;
+    }
+
+    p {
+        margin :5px;
+    }
+}

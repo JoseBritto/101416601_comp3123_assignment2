@@ -1,0 +1,24 @@
+header{
+    width: calc(100% - 8px);
+    height: 64px;
+    margin: 0;
+    background-color: var(--background-color);
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    background-color: var(--color-danger);
+    font-weight: 500;
+}
+
+header button:hover{
+    box-shadow: 0 0 10px 4px var(--color-danger);
+}
+
+header h2{
+    font-size: 1.2em;
+}
